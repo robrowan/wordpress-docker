@@ -20,4 +20,4 @@ galaxy_info:
   galaxy_tags:
     - wordpress
     - docker
-dependencies: [ docker ]
+dependencies: [ robrowan.docker ]
