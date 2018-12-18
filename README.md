@@ -1,10 +1,10 @@
-# guacamole-docker
+# Wordpress-docker
 
 Ansible role for installing and running dockerized Wordpress stack.
 
 Deploys 2 containers:
 * mariadb
-* guacamole
+* wordpress:latest
 
 ## Getting Started
 
@@ -49,7 +49,7 @@ Include a docker role:
 - hosts: wordpress_servers
   roles:
     - robrowan.docker
-    - robrowan.guacamole_docker
+    - robrowan.wordpress_docker
   become: true
 ```
 
