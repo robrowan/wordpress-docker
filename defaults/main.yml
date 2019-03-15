@@ -4,3 +4,4 @@ mysql_database: wp-db
 mysql_user: user
 mysql_password: password
 mysql_root_password: password
+web_port: 80
