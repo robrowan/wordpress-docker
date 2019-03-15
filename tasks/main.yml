@@ -21,7 +21,7 @@
     name: wp-app
     image: library/wordpress
     state: started
-    ports: 80:80
+    ports: '{{ web_port }}:80'
     links:
       - wp-mariadb:mysql
     env:
